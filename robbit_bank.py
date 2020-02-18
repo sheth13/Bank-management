@@ -1,4 +1,4 @@
-from functions import *
+from functions import * #---------- function.py imported 
 
 print('*******************************************************************************')
 print("                    Welcome to RobbIt Bank\n")
@@ -12,3 +12,5 @@ Registration()
 print('\n')
 
 Exit()
+
+#-------------------------------------------------------------------------------------#
