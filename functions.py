@@ -1,3 +1,5 @@
+
+#------------------Startup Display Function-------------------#
 def Display():
     print('1.Login')
     print('2.Registration') 
@@ -11,6 +13,7 @@ def Display():
     elif proceed==3:
         pass
 
+#-----------------User Regestration Function--------------------#    
 def Registration():
     print("\n        Details\n")
     name = str(input("Name : "))
@@ -23,6 +26,7 @@ def Registration():
     else:
         print("\nPassword do not macth")
 
+#------------------------Exit the code Function-----------------#        
 def Exit():
     e = input("press any key to return : ")
     if e==e:
